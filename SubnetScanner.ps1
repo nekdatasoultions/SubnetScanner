@@ -1,4 +1,4 @@
-﻿Set-ExecutionPolicy RemoteSigned –Scope Process
+#Input your first three octets of your /24 CIDR
 $FirstThreeOctets = Read-Host "Enter the first three octets of the subnet (e.g., 192.168.1)"
 
 # Validate input to ensure it's in the correct format
